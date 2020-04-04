@@ -10,4 +10,4 @@ install(FILES "Main.cpp" DESTINATION src) #${CMAKE_INSTALL_PREFIX}/src
 include(CTest)
 
 add_test("test1" "${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}")
-add_test("test2" "${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}" "anyparameter")
+#add_test("test2" "${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}" "anyparameter")
