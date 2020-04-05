@@ -11,3 +11,5 @@ include(CTest)
 
 add_test("test1" "${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}")
 #add_test("test2" "${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}" "anyparameter")
+
+include(CPack)
